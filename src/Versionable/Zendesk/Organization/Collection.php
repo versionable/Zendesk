@@ -22,9 +22,9 @@ class Collection implements CollectionInterface, \Iterator, \SeekableIterator, \
         return false;
     }
 
-    public function add(OrganizationInterface $tag)
+    public function add(OrganizationInterface $organization)
     {
-        $this->organizations[$tag->getName()] = $tag;
+        $this->organizations[$organization->getName()] = $organization;
     }
 
     public function remove($name)
@@ -113,6 +113,5 @@ class Collection implements CollectionInterface, \Iterator, \SeekableIterator, \
     }
 
     public function toArray()
-    {
-    }
+    { }
 }

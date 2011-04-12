@@ -4,7 +4,7 @@ namespace Versionable\Zendesk\Organization;
 
 interface CollectionInterface
 {
-    public function add(OrganizationInterface $tag);
+    public function add(OrganizationInterface $organization);
 
     public function remove($name);
 

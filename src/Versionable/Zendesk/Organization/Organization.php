@@ -6,7 +6,7 @@ class Organization implements OrganizationInterface
 {
     protected $name;
 
-    public function __construct($name = null)
+    public function __construct($name)
     {
         $this->name = $name;
     }
