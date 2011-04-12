@@ -113,6 +113,5 @@ class Collection implements CollectionInterface, \Iterator, \SeekableIterator, \
     }
 
     public function toArray()
-    {
-    }
+    { }
 }
